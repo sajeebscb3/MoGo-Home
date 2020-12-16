@@ -1,0 +1,884 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	font-size: 14px;
+	line-height: 24px;
+	font-family: 'Montserrat', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*MoGo css start*/
+
+.header-section{
+	width: 100%;
+	background: url("../images/ban-ner.png") center top no-repeat;
+	background-size: cover;
+}
+.header-section .main-menu{
+	width: 100%;
+	padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+.header-section .main-menu .bg-light{
+	background: transparent !important;
+}
+.header-section .main-menu .navbar-brand {
+    /*margin-left: 165px;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    color: #fff;
+    letter-spacing: 1px;
+}
+.header-section .main-menu .navbar-brand:hover{
+	color: yellow;
+}
+.header-section .main-menu .navbar-light .navbar-nav .active>.nav-link{
+	color: yellow;
+    background: url("../images/ylhv.png") center bottom no-repeat;
+    background-size: 45px;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px 0px 0px 20px;
+}
+.header-section .main-menu .navbar-light .navbar-nav .nav-link:hover, .header-section .main-menu .navbar-light .navbar-nav .nav-link:focus{
+	color: yellow;
+    background: url("../images/ylhv.png") center bottom no-repeat;
+}
+
+.header-section .banner-section{
+	width: 100%;
+	color: #fff;
+}
+.header-section .banner-section h3 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 50px;
+    padding: 20px 0px 15px;
+    margin-top: 50px;
+}
+.header-section .banner-section h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 95px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 90px;
+}
+
+/******************* text-animation *******************/
+.header-section .banner-section h1{
+	animation: type 3s;
+	overflow: hidden;
+	white-space: nowrap;
+}
+@keyframes type{
+	0%{
+		width: 0ch;
+	}
+	100%{
+		width: 20ch;
+	}
+}
+
+
+.header-section .banner-section img{
+	margin: 35px;
+}
+.header-section .banner-section .btn-inner{
+	margin-bottom: 60px;
+}
+.header-section .banner-section .btn-info{
+	/*margin-bottom: 50px;*/
+	border: 2px solid #fff;
+	padding: 5px 30px;
+	color: #fff;
+	background: transparent;
+	text-transform: uppercase;
+	font-size: 15px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	transition: 1s;
+}
+.header-section .banner-section .btn-info:hover{
+	color: #fff;
+	background: #e88482;
+	border: 2px solid #e88482;
+}
+.header-section .banner-section .slider{
+	width: 100%;
+	padding-bottom: 12px;
+}
+.header-section .banner-section .slider img{
+	width: 90%;
+}
+.header-section .banner-section .slider h3 {
+    margin: -23px 35px 0px;
+    padding: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-align: left;
+    text-transform: uppercase;
+}
+.header-section .banner-section .slider h3 span{
+	font-size: 22px;
+	font-weight: 800;
+}
+.header-section .banner-section .slider .hover{
+	color: #f7eac4;
+}
+.header-section .banner-section .slider .hover:hover {
+    color: #fff;
+    background: url(../images/slhv.png) right no-repeat;
+    margin: 0px;
+    background-size: 86%;
+}
+
+
+/*about-us css start*/
+.about-us{
+	width: 100%;
+	padding: 80px 0px 0px;
+}
+.about-us h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.about-us h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.about-us img{
+	padding: 15px;
+}
+.about-us p{
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+	color: #999999;
+	margin: 15px;
+}
+.about-us .picture{
+	padding: 60px 0px 80px;
+	position: relative;
+}
+.about-us .picture img{
+	width: 100%;
+	margin: 0px;
+}
+.about-us .picture img:hover{
+	box-shadow: 8px 3px #95e1d3, 3px 9px #95e1d3, 3px 3px #95e1d3;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+}
+.about-us .picture p {
+    position: absolute;
+    top: 200px;
+    left: 130px;
+    font-size: 22px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/*facts-section css start*/
+.facts-section{
+	width: 100%;
+	padding: 40px 0px;
+	background: #95e1d3;
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+}
+.facts-section .col-md-2{
+	border-left: 1px solid #fff;
+}
+.facts-section .last{
+	border-right: 1px solid #fff;
+}
+.facts-section h3{
+	font-size: 40px;
+	font-weight: 800;
+}
+.facts-section p{
+	font-size: 12px;
+	font-weight: 500;
+	text-transform: uppercase;
+}
+
+/*services-section css start*/
+.services-section{
+	width: 100%;
+	padding: 80px 0px 40px;
+}
+.services-section h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.services-section h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.services-section img{
+	padding: 15px;
+}
+.services-section .service1{
+	width: 100%;
+	padding: 40px 0px 20px;
+	border-bottom: 2px solid #e5e5e5;
+}
+.services-section .service1 .media{
+	width: 100%;
+}
+.services-section .service1 .media img{
+	width: 18%;
+}
+.services-section .service1 .media h6{
+	font-size: 18px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.services-section .service1 .media p{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+}
+.services-section .service2{
+	width: 100%;
+	padding: 40px 0px 40px;
+}
+.services-section .service2 .media{
+	width: 100%;
+}
+.services-section .service2 .media img{
+	width: 20%;
+}
+.services-section .service2 .media h6{
+	font-size: 18px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.services-section .service2 .media p{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+}
+
+/*feauture-section css start*/
+.feauture-section{
+	width: 100%;
+	padding: 80px 0px 0px;
+	background: url("../images/feauture.png") center top no-repeat;
+	background-size: cover;
+}
+.feauture-section .texts{
+	margin-bottom: 80px;
+}
+.feauture-section h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.feauture-section h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.feauture-section .display{
+	width: 100%;
+	margin: 20px 0px 0px;
+}
+.white-section{
+	width: 100%;
+}
+.white img{
+	margin: -385px 0px 0px 520px;
+}
+
+
+/*services-2 section css start*/
+.services-2{
+	width: 100%;
+	padding: 0px 0px 80px;
+}
+.services-2 h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.services-2 h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.services-2 p{
+	margin: 0px;
+	padding: 20px 0px 80px;
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+}
+.services-2 .pic img{
+	width: 103%;
+	padding: 0px 10px;
+}
+.services-2 .accordion-item img{
+	width: 5%;
+}
+.services-2 .accordion-item h3{
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #000;
+	margin: 2px 0px 0px 10px;
+	padding: 3px 0px;
+}
+.services-2 .accordion-item p{
+	padding: 23px 0px;
+	font-size: 15px;
+	line-height: 23px;
+	font-weight: 400;
+	color: #999;
+	font-style: italic;
+}
+
+
+/*quote-section css start*/
+.quote-section{
+	width: 100%;
+	padding: 40px 0px;
+	background: #f8f8f8;
+}
+.quote-section p{
+	padding: 7px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+.quote-section .sajeeb{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+	color: #000;
+	line-height: 32px;
+}
+.quote-section .sajeeb img{
+	width: 6%;
+	margin: 0px 10px 0px 0px;
+}
+
+
+
+.our-team {
+	width: 100%;
+	padding: 80px 0px;
+}
+.our-team h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.our-team h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.our-team img{
+	padding-bottom: 20px;
+}
+.our-team p{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+}
+
+/*team css start*/
+.team{
+	padding: 0px 0px 155px;
+}
+.team .active-pic{
+	width: 100%;
+	position: absolute;
+}
+.t1hv{
+	padding: 0px 10px 0px 0px;
+}
+.team .active-pic .t1hv img{
+	width: 384px;
+    height: 475px;
+}
+.team .active-pic .share1{
+	position: relative;
+    left: 60px;
+    top: -240px;
+}
+
+/* hover effect css*/
+
+.c-preview2{
+  	background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, #ee8b8a 50%, #ee8b8a 75%, #e5ce81 100%);
+	background: -webkit-linear-gradient(-45deg, #000000 0%,#000000 25%,#ee8b8a 50%,#ee8b8a 75%,#e5ce81 100%); 
+	background: linear-gradient(135deg, #000000 0%,#000000 25%,#ee8b8a 50%,#ee8b8a 75%,#e5ce81 100%); 
+  	background-size: 400% 400%;
+  	background-repeat: no-repeat;
+  	display: flex;
+  	width: 384px;
+    height: 475px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: #fff;
+ 	position: relative;
+  	cursor: pointer;
+  	transition: .5s all;
+  	margin: 0px 0px 0px 10px;
+}
+.c-preview__img2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 380px;
+    height: 425px;
+    z-index: 1;
+    opacity: .5;
+    mix-blend-mode: screen;
+}
+.c-preview2:hover {
+    background-position: 100% 100%;
+}
+
+.sa{
+	width: 380px;
+    height: 425px;
+}
+.c-preview2 .share1{
+	position: relative;
+    left: -5px;
+    top: 27px;
+}
+.c-preview3{
+  	background: -moz-linear-gradient(-45deg, #000000 0%, #000000 25%, #ee8b8a 50%, #ee8b8a 75%, #e5ce81 100%);
+	background: -webkit-linear-gradient(-45deg, #000000 0%,#000000 25%,#ee8b8a 50%,#ee8b8a 75%,#e5ce81 100%); 
+	background: linear-gradient(135deg, #000000 0%,#000000 25%,#ee8b8a 50%,#ee8b8a 75%,#e5ce81 100%); 
+  	background-size: 400% 400%;
+  	background-repeat: no-repeat;
+  	display: flex;
+  	width: 384px;
+    height: 475px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	color: #fff;
+ 	position: relative;
+  	cursor: pointer;
+  	transition: .5s all;
+  	margin: 0px 20px 0px;
+}
+.c-preview__img3{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    opacity: .5;
+    mix-blend-mode: screen;
+}
+.c-preview3:hover {
+    background-position: 100% 100%;
+}
+.c-preview3 .share1{
+	position: relative;
+    left: -5px;
+    top: 27px;
+}
+
+/*logos-section css start*/
+.logos{
+	width: 100%;
+	background: #f8f8f8;
+	padding: 40px;
+}
+
+
+/*work-section css start*/
+.work-section .texts h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.work-section .texts h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.work-section .texts img{
+	padding-bottom: 20px;
+}
+.work-section .texts p{
+	font-size: 12px;
+	font-weight: 400;
+	font-family: 'Roboto', sans-serif;
+	color: #999;
+	padding-bottom: 75px;
+}
+.work-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.work-section .image{
+	padding: 0px;
+}
+.work-section .image img{
+	width: 100%;
+}
+
+/*quote-section css start*/
+.quote{
+	width: 100%;
+	padding: 0px 0px 80px;
+	background: #fff;
+}
+.quote img{
+	width: 40%;
+}
+.quote p{
+	padding: 7px 0px 0px 0px;
+	font-size: 18px;
+	font-weight: 400;
+	color: #999;
+	font-style: italic;
+	font-family: 'Roboto', sans-serif;
+}
+.quote .joshua{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+	color: #000;
+	line-height: 32px;
+}
+.quote .joshua img{
+	width: 6%;
+	margin: 0px 10px 0px 0px;
+}
+
+
+/*people-say css start*/
+.people-say{
+	width: 100%;
+	background: url("../images/people-bg.png") no-repeat top center;
+	padding: 80px 0px 40px;
+}
+.people-say .texts h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.people-say .texts h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.people-say .texts img{
+	padding-bottom: 40px;
+}
+.people{
+	padding: 20px 0px 0px;
+}
+.people .fix{
+	margin: 0px 0px 0px 25px;
+}
+.people-say .mb-3{
+	background: transparent;
+	border: 0px;
+}
+.people-say .card-body h3{
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin: 5px 0px 10px;
+}
+.people-say .card-body h2{
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.people-say .card-body img{
+	margin: 0px 0px 10px;
+}
+.people-say .card-body p{
+	padding: 7px 0px 0px 0px;
+	font-size: 14px;
+	font-weight: 400;
+	color: #999;
+	font-family: 'Roboto', sans-serif;
+}
+
+
+
+/*blog-section css start*/
+.blog-section{
+	widows: 100%;
+	padding: 80px 0px;
+	background: #fff;
+	position: relative;
+}
+.blog-section .texts h3{
+	font-size: 22px;
+	font-weight: 400;
+	font-family: 'Kaushan Script', cursive;
+}
+.blog-section .texts h2{
+	font-size: 32px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+}
+.blog-section .texts img{
+	padding-bottom: 80px;
+}
+
+/*blog-picture row css*/
+.blog-section .card-group .card{
+	margin: 0px 40px;
+	border: none;
+}
+.blog-section .card-group .card .card-body{
+	padding: 10px 0px;
+}
+.blog-section .card-group .card .card-body h5{
+	font-size: 14px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 28px;
+	text-transform: uppercase;
+	letter-spacing: 0px;
+}
+.blog-section .card-group .card .card-body p{
+	font-size: 12px;
+	font-weight: 500;
+	font-family: 'Roboto', sans-serif;
+	color: #999999;
+	line-height: 22px;
+}
+.blog-section .card-group .card .card-body .views .fa{
+	color: #95e1d3;
+	margin: 0px 5px 0px 0px;
+}
+.blog-section .card-group .card .card-body .views span{
+	color: #999;
+	font-style: italic;
+	margin: 0px 15px 0px 0px;
+}
+.jan{
+	position: absolute;
+	top: 407px;
+    left: 142px;
+}
+.jan img{
+	margin: 0px 355px 0px 0px;
+}
+
+
+/*map-section css*/
+.map{
+	width: 100%;
+	background: url("../images/map.png") no-repeat top center;
+	padding: 80px 0px 40px;
+	color: #f38181;
+}
+.map .fa{
+	font-size: 32px;
+	font-weight: 900;
+}
+.map p {
+    font-size: 28px;
+    line-height: 38px;
+    font-weight: 800;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    padding: 10px 0px;
+    margin: 0px;
+}
+.map .text-center{
+	text-align: center!important;
+    margin: -34px 0px 0px;
+}
+.map span img{
+	padding: 0px;
+}
+
+
+/*footer-section css start*/
+.footer-section{
+	width: 100%;
+	padding: 80px 0px 60px;
+	background: #f8f8f8;
+}
+.footer-section p{
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 23px;
+	color: #999;
+	padding: 20px 0px;
+}
+.footer-section .col-md-4{
+	padding: 0px;
+}
+.footer-section h3 span{
+	font-size: 26px;
+	font-weight: 800;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer-section h3{
+	font-size: 16px;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif;
+	color: #000;
+}
+.footer-section .hr{
+	color: #000;
+}
+.footer-section ul{
+	list-style: none;
+	padding: 0px;
+}
+.footer-section ul li{
+	display: inline-block;
+	margin: 0px 20px 0px 0px;
+	color: #95e1d3;
+}
+.footer-section ul li .fa{
+	font-size: 16px;
+	font-weight: 500;
+}
+.footer-section ul li .fa:hover{
+	color: #f38181;
+	cursor: pointer;
+}
+.footer-section ul li h5 {
+    font-style: italic;
+    font-size: 14px;
+    color: #999;
+    margin: 0px;
+}
+.footer-section .form-inline{
+	padding: 20px 0px;
+	background: transparent;
+}
+.footer-section .form-inline .form-control {
+    padding: 20px 80px 20px 10px;
+    border: 4px solid #f8f8f8;
+    border-radius: 0px;
+    font-size: 17px;
+    font-style: italic;
+}
+.footer-section .form-inline .btn {
+    margin: -12px;
+    border-radius: 0px;
+    background: #95e1d3;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    padding: 8px 30px;
+    transition: .5s;
+}
+.footer-section .form-inline .btn:hover{
+	color: #fff;
+	cursor: pointer;
+	background: #f38181;
+}
+.footer-section h2 {
+    text-transform: uppercase;
+    color: #000;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    padding: 12px 0px 4px 28px;
+}
+.footer-section .media{
+	padding: 12px 0px 5px 28px;
+}
+.footer-section .media h5{
+	text-transform: uppercase;
+    color: #000;
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+}
+.footer-section .media h6 {
+    font-family: 'Roboto', sans-serif;
+    color: #999;
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 400;
+}
+.footer-section .card-group{
+	padding: 0px 0px 0px 28px;
+	border: none;
+}
+.footer-section .card-group img{
+	width: 138px;
+	height: 98px;
+}
+
+
+/*hr-last css*/
+.hr-last{
+	margin: 0px;
+}
+
+/*footer-bottom css start*/
+.footer-bottom{
+	width: 100%;
+	background: #f8f8f8;
+	padding: 20px;
+}
+.footer-bottom h3{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+}
+.footer-bottom span{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 600;
+	color: #f38181;
+}
+
+
+
+/*********** MoGo CSS End ***********/
